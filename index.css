@@ -1,0 +1,294 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+
+/* navbar stylings */
+.flex{
+    display: flex;
+}
+.navbar{
+    height: 80px;
+    background-color: black;
+}
+
+.spotifylogo{
+    height: 80px;
+    width: 360px;
+    padding-top: 20px;
+    padding-left: 200px;
+    padding-bottom: 15px;
+}
+
+.fivelinks{
+    padding-left: 550px;
+    /* padding-right: 100px; */
+    padding-top: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+a:hover{
+    color: #1ed760;
+}
+
+.links{
+    color: white;
+}
+
+/* first div section stylind */
+.herosec{
+    height: 600px;
+    width: 100%;
+    background: url(./bubbles-mobile.svg),linear-gradient(rgb(176,35,194)15%,rgb(96,11,231));
+    background-repeat: no-repeat;
+    background-size: 120% 120%;
+}
+
+.lefthero{
+    height: 600px;
+    width: 35%;
+    /* background-color: white; */
+}
+
+.imageleft{
+    display: block;
+    margin-left: 271px;
+    margin-top: 155px;
+    
+}
+
+.heading{
+    padding-left: 150px;
+    padding-top: 200px;
+    color: white;
+    font-size: 64px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.btn{
+    margin-top: 40px;
+    background-color:white;
+    color:black;
+    width: 200px;
+    height: 45px;
+    border-radius: 28px;
+    padding-left: 20px;
+    padding-right: 20px; 
+    border-color: white;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+/* second div sections stylings */
+.seconddiv{
+    height: 600px;
+    width: 100%;
+    background-color: white;
+}
+
+.im4span{
+    display: flex; 
+    justify-content: space-evenly;
+    padding-top: 75px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+ .im4span img{
+    height: 140px;
+    width: 142px;
+}
+
+.text4span{
+    display: flex; 
+    justify-content: space-evenly;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 30px;
+}
+
+.text4span h2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.para{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px; 
+}
+
+
+/* 3rd div stylings */
+
+.block3 {
+    text-align: center;
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(rgb(176, 35, 194) 15%, rgb(96, 11, 231));
+}
+
+.block3-h2 {
+    font-size: 48px;
+    padding-top: 190px;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* stylings for 4th div section */
+.fourthdiv{
+    height: 400px;
+    width: 100%;
+    background-color:white;
+    padding-top: 100px;
+    
+}
+
+.fourthdivhead{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.box{
+    border: 1px solid rgb(235, 233, 233);
+    box-shadow: 0 1px 3px rgb(226, 223, 233);
+    width: 1100px;
+    height: 60px;
+    /* overflow: hidden; */
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between; /**/
+    /* cursor: pointer; */
+    font-weight: bolder;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    }
+    .box:hover{
+    box-shadow: 0px 0px 6px gray;
+    text-decoration: underline;
+    }
+    .no-und{
+        text-underline-position: none;
+    }
+    .box div{
+    overflow: hidden;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    
+    }
+    .box div span{
+    color: rgb(65, 65,65);
+    font-size: 1.2rem;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis
+    }
+
+/* stylings for 5th div section */
+.fifthdiv{
+    height: 500px;
+    width: 100%;
+    background: url(./bubbles-mobile.svg),linear-gradient(rgb(176,35,194)15%,rgb(96,11,231));
+    background-repeat: no-repeat;
+    background-size: 120% 120%;
+}
+
+.fifthdivhead{
+    text-align: center;
+    color: white;
+    font-size: 80px;
+    padding-top: 140px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* .fifthdiv btn{
+
+    margin-top: 40px;
+    background-color:white;
+    color:black;
+    width: 200px;
+    height: 45px;
+    border-radius: 28px;
+    padding-left: 20px;
+    padding-right: 20px; 
+    border-color: white;
+} */
+
+/* stylings for 6th div section */
+.sixthdiv{
+    height: 450px;
+    width: 100%;
+    background-color: black;
+    padding-top: 90px;
+}
+
+.spotifylogolast{
+    padding-left: 200px;
+}
+
+.unolists{
+    list-style: none;
+    padding-left: 80px;
+    line-height: 40px;
+    padding-top: 15px;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 0.1em;
+}
+
+.sixthdivlinks a{
+    text-decoration: none;
+    color: white;
+}
+
+.sixthdivlinks a:hover{
+    color: #1ed760;
+}
+
+.flaticons{
+    justify-content: space-evenly;
+    padding-left: 150px;
+    padding-top: 25px;
+}
+
+.flaticons a{
+   font-size: 35px;
+}
+
+.flaticons a:hover i:before{
+    color: #1ed760;
+}
+
+/* stylings for 7th div */
+.footer{
+    background-color: black;
+    padding-left: 200px;
+    padding-bottom: 50px;
+}
+
+.footerlists{
+    list-style: none;
+    display: flex;
+}
+
+.footerlists a{
+    text-decoration: none;
+    color: gray;
+    font-size: 14px;
+}
+
+.footerlists a:hover{
+    color: #1ed760;
+}
+
+
+
+
